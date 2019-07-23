@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio 9</title>
+    <script>
+            // Se le solicita al usuario que ingrese los tres lados de un triángulo rectángulo.
+            // Los dos primeros valores pertenecen a los catetos. Realice el algoritmo para calcular e informar perímetro y el área del triángulo.
+
+            var ladoUnoTriangulo = parseFloat(prompt('Ingresá el lado 1 de un triangulo rectángulo'));
+            var ladoDosTriangulo = parseFloat(prompt('Ingresá el lado 2 de un triangulo rectángulo'));
+            var ladoTresTriangulo = parseFloat(prompt('Ingresá el lado 3 de un triangulo rectángulo'));
+
+            var perimetroTrianguloRectangulo = ladoUnoTriangulo + ladoDosTriangulo + ladoTresTriangulo;
+            var areaTrianguloRectangulo = (ladoUnoTriangulo * ladoDosTriangulo) / 2;
+
+            console.log = (ladoUnoTriangulo, ladoDosTriangulo, ladoTresTriangulo);
+            document.write ('Perímetro del triángulo rectángulo: ' + perimetroTrianguloRectangulo + ' ' + 'Área del triángulo rectángulo' + areaTrianguloRectangulo + ' ');
+    </script>
+</head>
+
+</html>
