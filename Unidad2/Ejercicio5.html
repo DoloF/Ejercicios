@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ejercicio 5</title>
     <script>
-            Se le solicita al usuario que ingrese un número.
-            Realice el algoritmo para informar si el número es cero, par o impar.
+            // Se le solicita al usuario que ingrese un número.
+            // Realice el algoritmo para informar si el número es cero, par o impar.
 
             var numeroUsuario = parseFloat(prompt('Ingrese numero'));
 
@@ -23,32 +23,6 @@
                     document.write ('El número es impar')
                 }
             }
-
-            extremos de un rango numérico (dif minima de 5 numeros)
-            pedir otro numero
-            el numero está dentro del rango?
-            si -> es par ? si o no
-            no -> es impar ? si o no
-
-            var rangoMenor; parseFloat(prompt('Ingrese rango menor'));
-            var rangoMayor; parseFloat(prompt('Ingrese rango mayor'));
-            var numero; parseFloat(prompt('Ingrese numero'));
-
-            var dif = rangoMayor - rangoMenor;
-
-            if (dif >= 5) {
-                if (numero >= rangoMenor && numero <= rangoMayor) {
-                    if (numero % 2 == 0) {
-                        document.write('el numero ingresado se encuentra en el rango y es par')}
-                } else {
-                    if (numero % 2 != 0) {
-                        document.write ('el número ingresado no se encuentra en el rango y es impar')
-                    }
-                }
-            }
-            console.log (rangoMenor, rangoMayor, numero);
-
-            document.write('Ingrese los extremos de un rango numérico y un número:');
             </script>
 </head>
 </html>
