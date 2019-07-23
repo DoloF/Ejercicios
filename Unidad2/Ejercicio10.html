@@ -8,13 +8,18 @@
 </head>
 <script>
     //Se le solicita al usuario que ingrese dos números y un operador (+, -, *, /, %). Realice el algoritmo para calcular e informar la operación deseada entre los dos números.
-    do{
+    // Ejercicio 10
+            Se le solicita al usuario que ingrese dos números y un operador (+, -, *, /, %).
+            Realice el algoritmo para calcular e informar la operación deseada entre los dos números.
+
             var numero1 = parseFloat(prompt('Ingrese el primer numero'));
             var numero2 = parseFloat(prompt('Ingrese el segundo numero'));
             var operador = prompt('Ingrese un operador (+, -, *, /, %)');
-            var r = confirm ('¿desea seguir ingresando números?');
-            switch (operador)
-                {case '+':
+
+            var resultado;
+
+            switch (operador) {
+                case '+':
                     resultado = numero1 + numero2;
                     document.write('ud eligio suma, el resultado es: ' + resultado);
                     break;
@@ -36,6 +41,6 @@
                     break;
                 default:
                     document.write('Ud no eligio ninguna operacion aceptada');
-            }} while (r);
+            }
 </script>
 </html>
