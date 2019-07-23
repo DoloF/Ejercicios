@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio6</title>
+    <script>
+    // Se le solicita al usuario que ingrese un número. 
+    // Realice el algoritmo para informar si el número es múltiplo de 3, múltiplo 5 o si es múltiplo de ambos.
+
+    var numeroUsuario = parseFloat(prompt('Ingrese numero'));
+
+    if ((numeroUsuario % 3 == 0) && (numeroUsuario % 5 == 0) && (numeroUsuario != 0)){
+        document.write('El número ingresado es múltiplo de 3 y de 5');
+    }else if ((numeroUsuario % 3 == 0) && (numeroUsuario != 0)){ 
+        document.write('El número ingresado es múltiplo de 3');
+    }else if((numeroUsuario % 5 == 0) && (numeroUsuario != 0)){
+        document.write('El número ingresado es múltiplo de 5');}
+    
+    console.log (numeroUsuario);
+
+    </script>
+</head>
+</html>
