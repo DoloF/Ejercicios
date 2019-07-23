@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Document</title>
+        <script>
+            //Ejercicio 1
+            // var ladoUno = parseFloat(prompt('Ingresá el lado uno de un triángulo'));
+            // var ladoDos = parseFloat(prompt('Ingresá el lado dos de un triángulo'));
+            // var ladoTres = parseFloat(prompt('Ingresá el lado tres de un triángulo'));
+
+            // var perimetroTriangulo = ladoUno + ladoDos + ladoTres;
+
+            // console.log (ladoUno, ladoDos, ladoTres);
+
+            // document.write ('Perímetro del triángulo:' + perimetroTriangulo);
+
+            //Ejercicio 2
+
+            // var ladoCuadrado = parseFloat(prompt('Ingresá el lado de un cuadrado'));
+
+            // var perimetroCuadrado = ladoCuadrado * 4;
+
+            // console.log (ladoCuadrado);
+
+            // document.write ('Perímetro del cuadrado:' + perimetroCuadrado);
+
+            //Ejercicio 3
+            // var ladoUno = parseFloat(prompt('Ingresá el lado uno del rectángulo'));
+            // var ladoDos = parseFloat(prompt('Ingresá el lado dos del rectángulo'));
+
+            // var perimetroRectángulo = ladoUno * 2 + ladoDos * 2;
+
+            // console.log (ladoUno, ladoDos);
+            // document.write ('Perímetro del rectángulo:' + perimetroRectángulo);
+
+            //Ejercicio 4 -- ver
+            // var valorUno = parseInt(prompt('Ingresá un valor numérico'));
+            // var valorDos = parseInt(prompt('Ingresá un segundo valor numérico'));
+
+            // var modulo = valorUno % valorDos;
+
+            // console.log ( valorUno, valorDos);
+            // document.write ('Resta de la división entera de los valores ingresados:' + modulo);
+
+            // Ejercicio 5
+            // var nombreUsuario = (prompt('Ingresá tu nombre'));
+            // var saludoUsuario = ('Hola ' + nombreUsuario);
+
+            // console.log = (saludoUsuario, nombreUsuario);
+
+            // document.write ( saludoUsuario);
+
+            //Ejercicio 6
+            //Se le solicita al usuario que ingrese su nombre y luego su apellido. Realice el algoritmo que arme y muestre el mensaje
+            //"Bienvenido", seguido del nombre y apellido del usuario. Tener en cuenta que el mensaje debe tener las tres partes
+            //separadas por un espacio.
+
+            // var nombreUsuario = prompt('Ingresá tu nombre');
+            // var apellidoUsuario = prompt('Ingresá tu apellido');
+
+            // var bienvenideUsuario = (nombreUsuario + ' ' + apellidoUsuario);
+
+            // console.log = (nombreUsuario, apellidoUsuario, bienvenideUsuario);
+            // document.write ('Bienvenide ' + bienvenideUsuario);
+
+            // Ejercicio 7
+            // Se le solicita al usuario que ingrese el lado de un cuadrado.
+            // Realice el algoritmo para calcular e informar el perímetro y el área del cuadrado.
+
+            // var ladoCuadrado = parseFloat(prompt('Ingresá el lado de un cuadrado'));
+
+            // var perimetroCuadrado = ladoCuadrado * 4;
+            // var areaCuadrado = (ladoCuadrado * ladoCuadrado);
+
+            // console.log (ladoCuadrado, areaCuadrado);
+
+            // document.write ('Perímetro del cuadrado:' + perimetroCuadrado + ' ' + 'Área del cuadrado:' + areaCuadrado);
+
+            //Ejercicio 8
+            //Se le solicita al usuario que ingrese los lados de un rectángulo.
+            //Realice el algoritmo para calcular e informar el perímetro y el área del rectángulo.
+
+            // var ladoRectangulo = parseFloat(prompt('Ingresá el lado de un rectangulo'));
+
+            // var perimetroRectangulo = ladoRectangulo * 4;
+            // var areaRectangulo = (ladoRectangulo * ladoRectangulo);
+
+            // console.log (ladoRectangulo, areaRectangulo);
+
+            // document.write ('Perímetro del rectángulo:' + perimetroRectangulo + ' ' + 'Área del rectangulo:' + areaRectangulo);
+
+            //Ejercicio 9
+            //Se le solicita al usuario que ingrese los tres lados de un triángulo rectángulo.
+            //Los dos primeros valores pertenecen a los catetos. Realice el algoritmo para calcular e informar perímetro y el área del triángulo.
+
+            // var ladoUnoTriangulo = parseFloat(prompt('Ingresá el lado 1 de un triangulo rectángulo'));
+            // var ladoDosTriangulo = parseFloat(prompt('Ingresá el lado 2 de un triangulo rectángulo'));
+            // var ladoTresTriangulo = parseFloat(prompt('Ingresá el lado 3 de un triangulo rectángulo'));
+
+            // var perimetroTrianguloRectangulo = ladoUnoTriangulo + ladoDosTriangulo + ladoTresTriangulo;
+            // var areaTrianguloRectangulo = (ladoUnoTriangulo * ladoDosTriangulo) / 2;
+
+            // console.log = (ladoUnoTriangulo, ladoDosTriangulo, ladoTresTriangulo);
+            // document.write ('Perímetro del triángulo rectángulo: ' + perimetroTrianguloRectangulo + ' ' + 'Área del triángulo rectángulo' + areaTrianguloRectangulo + ' ');
+
+            // Ejercicio 10
+            // Se le solicita al usuario que ingrese el diámetro de un círculo.
+            // Realice el algoritmo para calcular e informar el perímetro y el área del círculo.
+            // Se considerará para este ejercicio que el valor de PI será 3,1416.
+
+            // var diametroCirculo = parseFloat(prompt('Ingresá el diámetro de un círculo'));
+
+            // var radioCirculo =  diametroCirculo / 2;
+            // var perimetroCirculo = 3.1416 * diametroCirculo;
+            // var areaCirculo = 3.1416 * radioCirculo **2;
+
+            // console.log = (radioCirculo, perimetroCirculo, diametroCirculo);
+            // document.write ('Perímetro del círculo:' + perimetroCirculo + ' ' + 'Área círculo: ' + areaCirculo );
+
+            //Difíles
+
+            // Ejercicio 1
+            // Realizar un sistema para el cálculo de sueldos de una empresa.
+            // Se le solicita al empleado que ingrese el valor de la hora y la cantidad de horas trabajadas en el mes.
+            // Realice el algoritmo para calcular e informar el sueldo de un empleado en el mes y a lo largo de un año.
+
+            // var valorHora = parseFloat(prompt('Ingresá el valor de tu hora'));
+            // var cantidadHora = parseFloat(prompt('Ingresá la cantidad de horas trabajadas en el mes'));
+
+            // var sueldoXmes = valorHora * cantidadHora;
+            // var sueldoXanio = sueldoXmes * 12;
+
+            // console.log = (valorHora, cantidadHora, sueldoXmes, sueldoXanio);
+            // document.write ('Sueldo por mes: ' + sueldoXmes + ' ' + 'Sueldo por año: ' + sueldoXanio);
+
+            //Ejercicio 2
+            //Realizar un sistema para el cálculo de sueldos de una empresa de software.
+            //Se le solicita al empleado que ingrese el valor de la hora, la cantidad de horas trabajadas en el mes y
+            //los años de antigüedad en la empresa. Realice el algoritmo para calcular e informar el sueldo de un empleado en el mes
+            //y a lo largo de un año, teniendo en cuenta que se le asigna un premio igual al 5% del sueldo por año de antigüedad.
+
+            // var valorHora = parseFloat(prompt('Ingresá el valor de tu hora'));
+            // var cantidadHora = parseFloat(prompt('Ingresá la cantidad de horas trabajadas en el mes'));
+            // var aniosDeAntiguedad = parseFloat(prompt('Ingresá los años de antiguedad'));
+
+            // var sueldoXmes = valorHora * cantidadHora;
+            // var premio = (sueldoXanio * 0.05) * aniosDeAntiguedad;
+            // var sueldoXanio = sueldoXmes * 12;
+
+            // console.log = (valorHora, cantidadHora, sueldoXmes, sueldoXanio);
+            // document.write ('Sueldo por mes: ' + sueldoXmes + ' ' + 'Sueldo por año: ' + sueldoXanio);
+
+            // Ejercicio 4
+            // Realizar un sistema para el cálculo de sueldo de una empresa de seguros.
+            // Se le solicita al empleado que ingrese el sueldo básico mensual, la cantidad de seguros vendidos y el valor del seguro más
+            // caro vendido.
+            // Realice el algoritmo para calcular e informar el sueldo de un empleado en el mes,
+            // teniendo en cuenta que se le asigna un premio igual al 25% del seguro más caro vendido y otro premio igual al 15%
+            // del sueldo por la cantidad de seguros vendidos.
+
+            // var sueldoBasicoMensual = parseFloat(prompt('Ingresá tu sueldo básico mensual'));
+            // var segurosVendidos = parseFloat(prompt('Ingresá la cantidad de seguros vendidos'));
+            // var seguroMasCaro = parseFloat(prompt('Ingresá el seguro más  caro vendido'));
+
+            // var premioSeguroMasCaro = seguroMasCaro * 25 / 100;
+            // var otroPremio = sueldoBasicoMensual * 15 / 100 * segurosVendidos;
+            // var sueldoMensualConPremios = sueldoBasicoMensual + premioSeguroMasCaro + otroPremio;
+
+            // console.log = (sueldoBasicoMensual, segurosVendidos, otroPremio, sueldoMensualConPremios);
+            // document.write ('Sueldo por mes: ' + sueldoMensualConPremios);
+
+            // Ejercicio 5
+            // Se le solicita al usuario que ingrese un número.
+            // Realice el algoritmo para informar si el número es cero, par o impar.
+
+            // var numeroUsuario = parseFloat(prompt('Ingrese numero'));
+
+            // console.log = (numeroUsuario);
+
+            // if (numeroUsuario == 0) {
+            //     document.write('El número ingresado es cero');
+            // }
+            // else {
+            //     if (numeroUsuario % 2 == 0) {
+            //         document.write ('El número es par')
+            //     } else {
+            //         document.write ('El número es impar')
+            //     }
+            // }
+
+            //extremos de un rango numérico (dif minima de 5 numeros)
+            //pedir otro numero
+            //el numero está dentro del rango?
+            //si -> es par ? si o no
+            //no -> es impar ? si o no
+
+            // var rangoMenor; parseFloat(prompt('Ingrese rango menor'));
+            // var rangoMayor; parseFloat(prompt('Ingrese rango mayor'));
+            // var numero; parseFloat(prompt('Ingrese numero'));
+
+            // var dif = rangoMayor - rangoMenor;
+
+            // if (dif >= 5) {
+            //     if (numero >= rangoMenor && numero <= rangoMayor) {
+            //         if (numero % 2 == 0) {
+            //             document.write('el numero ingresado se encuentra en el rango y es par')}
+            //     } else {
+            //         if (numero % 2 != 0) {
+            //             document.write ('el número ingresado no se encuentra en el rango y es impar')
+            //         }
+            //     }
+            // }
+            // console.log (rangoMenor, rangoMayor, numero);
+
+            // document.write('Ingrese los extremos de un rango numérico y un número:');
+
+            // Ejercicio 10
+            // Se le solicita al usuario que ingrese dos números y un operador (+, -, *, /, %).
+            // Realice el algoritmo para calcular e informar la operación deseada entre los dos números.
+
+            // var numero1 = parseFloat(prompt('Ingrese el primer numero'));
+            // var numero2 = parseFloat(prompt('Ingrese el segundo numero'));
+            // var operador = prompt('Ingrese un operador (+, -, *, /, %)');
+
+            // var resultado;
+
+            // switch (operador) {
+            //     case '+':
+            //         resultado = numero1 + numero2;
+            //         document.write('ud eligio suma, el resultado es: ' + resultado);
+            //         break;
+            //     case '-':
+            //         caseresultado = numero1 - numero2;
+            //         document.write('ud eligio resta, el resultado es: ' + resultado);
+            //         break;
+            //     case '/':
+            //         resultado = numero1 / numero2;
+            //         document.write('ud eligio división, el resultado es: ' + resultado);
+            //         break;
+            //     case '*':
+            //         resultado = numero1 / numero2;
+            //         document.write('ud eligio multiplicación, el resultado es: ' + resultado);
+            //         break;
+            //     case '%':
+            //         resultado = numero1 / numero2;
+            //         document.write('ud eligio módulo, el resultado es: ' + resultado);
+            //         break;
+            //     default:
+            //         document.write('Ud no eligio ninguna operacion aceptada');
+            // }
+
+// Ejercicio 8
+// Se le solicita al usuario que ingrese una letra. 
+// Realice el algoritmo para informar si la letra ingresada es una vocal o una consonante.
+            
+            // var letra = prompt('Ingrese una letra').toLocaleLowerCase();
+
+            // if (letra == 'a' || letra == 'e' || letra == 'i' || letra == 'o' || letra == 'u');{
+            // document.write('La letra ingresada es una vocal');
+            // } else {
+            //     document.write ('La letra ingresada no es una vocal')
+            // }
+
+            //Se le solicita al usuario que ingrese 10 números. 
+            //Realice el algoritmo para informar si cada número es cero, par o impar.
+
+            //var numero;
+
+            // for(var i= 0;< 10){
+            //     numero= parseInt (prompt('Ingrese un número'));
+            // }
+
+            // if(numero ==0){
+            //     //el numero es 0+numero
+            // }else if(numero % 2 == 0){
+            //     //el numero es par
+            // }else{
+            //     //el numero es impar
+            // }
+
+
+            
+            // do{
+            //     var numero = prompt ('ingrese un numero');
+            //     var r = confirm ('¿desea seguir ingresando números?');
+            //     document.write (numero)
+            //     } while (r)
+            
+            // Se le solicita al usuario que ingrese dos números y un operador (+, -, *, /, %). 
+            // Realice el algoritmo para calcular e informar cada operación deseada entre los dos números. 
+            // Ese proceso se puede repetir mientras lo desee el usuario.
+
+
+            do{
+            var numero1 = parseFloat(prompt('Ingrese el primer numero'));
+            var numero2 = parseFloat(prompt('Ingrese el segundo numero'));
+            var operador = prompt('Ingrese un operador (+, -, *, /, %)');
+            var r = confirm ('¿desea seguir ingresando números?');
+            switch (operador)
+                {case '+':
+                    resultado = numero1 + numero2;
+                    document.write('ud eligio suma, el resultado es: ' + resultado);
+                    break;
+                case '-':
+                    caseresultado = numero1 - numero2;
+                    document.write('ud eligio resta, el resultado es: ' + resultado);
+                    break;
+                case '/':
+                    resultado = numero1 / numero2;
+                    document.write('ud eligio división, el resultado es: ' + resultado);
+                    break;
+                case '*':
+                    resultado = numero1 / numero2;
+                    document.write('ud eligio multiplicación, el resultado es: ' + resultado);
+                    break;
+                case '%':
+                    resultado = numero1 / numero2;
+                    document.write('ud eligio módulo, el resultado es: ' + resultado);
+                    break;
+                default:
+                    document.write('Ud no eligio ninguna operacion aceptada');
+            }} while (r);
+
+
+
+
+
+
+
+
+        </script>
+    </head>
+    <body></body>
+</html>
